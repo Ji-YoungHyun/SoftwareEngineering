@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/planname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NAME : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/planlevel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="LEVEL : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/plancategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="CATEGORY : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/planreward"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="REWARD : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/planpenalty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="PENALTY : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/plandeadline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DEADLINE : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/planexecutetime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="EXECUTE TIME : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/PlanDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:text="DETAILS : "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <EditText
+        android:id="@+id/editPlanName"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="@string/edit_planname"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/editPlanLevel"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/edit_planlevel"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <EditText
+        android:id="@+id/editPlanCategory"
+        android:layout_width="209dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="@string/edit_plancategory"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <EditText
+        android:id="@+id/editReward"
+        android:layout_width="206dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/edit_reward"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <EditText
+        android:id="@+id/editPenalty"
+        android:layout_width="206dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/edit_penalty"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <EditText
+        android:id="@+id/editDeadline"
+        android:layout_width="204dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="@string/edit_deadline"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <EditText
+        android:id="@+id/editPlandetails"
+        android:layout_width="206dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/edit_details"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <EditText
+        android:id="@+id/editPlandetails2"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <EditText
+        android:id="@+id/editPlandetails3"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="80dp"
+        android:layout_height="39dp"
+        android:text="@string/button_back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/PLANEXECUTION"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:text="@string/button_execution"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <Button
+        android:id="@+id/PLANGIVEUP"
+        android:layout_width="99dp"
+        android:layout_height="41dp"
+        android:text="@string/button_giveup"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <Button
+        android:id="@+id/stopwatch"
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+        android:text="@string/button_stopwatch"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
